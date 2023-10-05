@@ -10,6 +10,7 @@
     "Model": {{ processor['model']|string|tojson }},
     "TotalCores": {{ processor['cores']|string|tojson }},
     "TotalThreads": {{ processor['threads']|string|tojson }},
+    "MaxSpeedMHz": "1200",
     "Status": {
         "@odata.type": "#Resource.Status",
         "State": "Enabled",

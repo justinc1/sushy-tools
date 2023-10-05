@@ -4,6 +4,8 @@
     "Name": {{ name|string|tojson }},
     "UUID": {{ uuid|string|tojson }},
     "Manufacturer": "Sushy Emulator",
+    "Model": "Sushy Emulator Model",
+    "SerialNumber": "12345",
     "Status": {
         "State": "Enabled",
         "Health": "OK",
